@@ -1,0 +1,22 @@
+@font-face {
+    font-family:"power ranger";
+    src: url(./Power\ Rangers.ttf);
+
+    
+}
+caption{
+    font-family: "power ranger";
+    font-size: 72px;
+    text-transform: "";
+}
+h2{
+    font-family: "power ranger";
+    text-transform: uppercase;
+}
+
+img{
+    height: 250px;
+    display: flex;
+    margin: auto;
+    
+}

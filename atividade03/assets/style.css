@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#lista-1{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 500px;
+    background-color: gray;
+    
+}
+
+.menu{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content:flex-end;
+ 
+}
+.peixe{
+   display: flex;
+   justify-content: center;
+
+}
+#principal{
+    padding: 0px 100px;
+ 
+}
+
+   
+
+
+
+
+
+
+

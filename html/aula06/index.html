@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .div {
+            background-color: blueviolet;
+            height: 100PX;
+            width: 100PX;
+            /* margin-top: 0 15px */
+            /* display: inline-block; */
+            
+           
+            
+            
+        }
+
+        #segunda{
+            background-color: brown;
+        }
+
+        .iguais{
+            background-color:aquamarine;
+            border-radius: 150px;
+        }
+
+        .borda-divisao{
+            border: 5px solid orangered;
+        }
+        body{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        #pai{
+            background-color: black;
+            height: 250px;
+            
+            justify-content: right;
+            display: flex;
+            flex-direction:row;
+            justify-content: space-around;
+            align-items: center;
+            /* gap: 15px; */
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="div iguais borda-divisao"></div>
+        <div class="div segunda" id="iguais"></div>
+        <div class="div iguais"></div>
+        <div class="div borda-divisao"></div>
+    </div>
+</body>
+</html>
